@@ -1,0 +1,69 @@
+{
+    "locations": [
+
+        {
+            "id": 1,
+            "city": "Nashville",
+            "address": "100 oaks, Nashville Tn. 37204"
+        },
+        {
+           "id": 2,
+           "city": "Arlington",
+           "address": "1000 infinity way, Nashville Tn. 37204" 
+        },
+        {
+            "id": 3,
+            "city": "LaVergne",
+            "address": "125 edgehill way Hendersonville, Tn. 37075"
+        }
+
+
+    ],
+
+    "productTypes": [
+        {
+            "id": 1,
+            "type": "hardCandy"
+        },
+        {
+            "id": 2,
+            "type": "gum"
+        },
+        {
+            "id": 3,
+            "type": "chocolate"
+        },
+        {
+            "id": 4,
+            "type": "soda"
+        }
+    ],
+
+    "products": [
+        {
+            "id": 11,
+            "productTypeId": 3,
+            "name": "snickers",
+            "price": 2.31
+        },
+        {
+            "id": 12,
+            "productTypeId": 2,
+            "name": "double mint",
+            "price": 2.31
+        },
+        {
+            "id": 10,
+            "productTypeId": 1,
+            "name": "butterscotch",
+            "price": 2.35
+        },
+        {
+            "id": 9,
+            "productTypeId": 4,
+            "name": "dr. pepper",
+            "price": 2.35
+        }
+    ]
+
+}
