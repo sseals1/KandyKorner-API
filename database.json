@@ -64,6 +64,20 @@
             "name": "dr. pepper",
             "price": 2.35
         }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Honey Rae"
+        },
+        {
+            "id": 2,
+            "name": "Big Bertha"
+        },
+        {
+            "id": 3,
+            "name": "Chuck Norris"
+        }
     ]
 
 }
