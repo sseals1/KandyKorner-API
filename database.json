@@ -1,83 +1,379 @@
 {
-    "locations": [
-
-        {
-            "id": 1,
-            "city": "Nashville",
-            "address": "100 oaks, Nashville Tn. 37204"
-        },
-        {
-           "id": 2,
-           "city": "Arlington",
-           "address": "1000 infinity way, Nashville Tn. 37204" 
-        },
-        {
-            "id": 3,
-            "city": "LaVergne",
-            "address": "125 edgehill way Hendersonville, Tn. 37075"
-        }
-
-
-    ],
-
-    "productTypes": [
-        {
-            "id": 1,
-            "type": "hardCandy"
-        },
-        {
-            "id": 2,
-            "type": "gum"
-        },
-        {
-            "id": 3,
-            "type": "chocolate"
-        },
-        {
-            "id": 4,
-            "type": "soda"
-        }
-    ],
-
-    "products": [
-        {
-            "id": 11,
-            "productTypeId": 3,
-            "name": "snickers",
-            "price": 2.31
-        },
-        {
-            "id": 12,
-            "productTypeId": 2,
-            "name": "double mint",
-            "price": 2.31
-        },
-        {
-            "id": 10,
-            "productTypeId": 1,
-            "name": "butterscotch",
-            "price": 2.35
-        },
-        {
-            "id": 9,
-            "productTypeId": 4,
-            "name": "dr. pepper",
-            "price": 2.35
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Honey Rae"
-        },
-        {
-            "id": 2,
-            "name": "Big Bertha"
-        },
-        {
-            "id": 3,
-            "name": "Chuck Norris"
-        }
-    ]
-
+  "productLocations": [
+    {
+      "id": 1,
+      "productId": 11,
+      "locationId": 3,
+      "candyCount": 100
+    },
+    {
+      "id": 2,
+      "productId": 12,
+      "locationId": 2,
+      "candyCount": 130
+    },
+    {
+      "id": 3,
+      "productId": 10,
+      "locationId": 1,
+      "candyCount": 90
+    },
+    {
+      "id": 4,
+      "productId": 9,
+      "locationId": 3,
+      "candyCount": 150
+    },
+    {
+      "id": 5,
+      "productId": 11,
+      "locationId": 3,
+      "candyCount": 100
+    },
+    {
+      "id": 6,
+      "productId": 12,
+      "locationId": 2,
+      "candyCount": 130
+    },
+    {
+      "id": 7,
+      "productId": 10,
+      "locationId": 1,
+      "candyCount": 90
+    },
+    {
+      "id": 8,
+      "productId": 9,
+      "locationId": 3,
+      "candyCount": 150
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "city": "Nashville",
+      "address": "100 oaks, Nashville Tn. 37204"
+    },
+    {
+      "id": 2,
+      "city": "Arlington",
+      "address": "1000 infinity way, Nashville Tn. 37204"
+    },
+    {
+      "id": 3,
+      "city": "LaVergne",
+      "address": "125 edgehill way Hendersonville, Tn. 37075"
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "hardCandy"
+    },
+    {
+      "id": 2,
+      "type": "gum"
+    },
+    {
+      "id": 3,
+      "type": "chocolate"
+    },
+    {
+      "id": 4,
+      "type": "soda"
+    }
+  ],
+  "products": [
+    {
+      "id": 11,
+      "productTypeId": 3,
+      "name": "snickers",
+      "price": 4.31
+    },
+    {
+      "id": 12,
+      "productTypeId": 2,
+      "name": "double mint",
+      "price": 2.31
+    },
+    {
+      "id": 10,
+      "productTypeId": 1,
+      "name": "butterscotch",
+      "price": 3.35
+    },
+    {
+      "id": 9,
+      "productTypeId": 4,
+      "name": "dr. pepper",
+      "price": 2.65
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Honey Rae",
+      "email": "honey@rae.com"
+    },
+    {
+      "id": 2,
+      "name": "Big Bertha",
+      "email": "big@bertha.com"
+    },
+    {
+      "id": 3,
+      "name": "Chuck Norris",
+      "email": "chuck@norris.com"
+    },
+    {
+      "name": "vernon ried",
+      "address": "100 infinity way Nashville Tn. 37204",
+      "email": "vernon@ried.com",
+      "id": 4
+    },
+    {
+      "name": "Suth Maxwell",
+      "address": "100 Nashville, TN. 37204",
+      "email": "suth@email.com",
+      "id": 5
+    }
+  ],
+  "purchases": [
+    {
+      "customerId": 4,
+      "productLocationId": 1,
+      "candySoldAmount": 1,
+      "id": 2
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 4,
+      "candySoldAmount": 1,
+      "id": 3
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 1,
+      "candySoldAmount": 1,
+      "id": 4
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 2,
+      "candySoldAmount": 1,
+      "id": 5
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 1,
+      "candySoldAmount": 1,
+      "id": 6
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 4,
+      "candySoldAmount": 1,
+      "id": 7
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 2,
+      "candySoldAmount": 1,
+      "id": 8
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 1,
+      "candySoldAmount": 1,
+      "id": 9
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 1,
+      "candySoldAmount": 1,
+      "id": 10
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 4,
+      "candySoldAmount": 1,
+      "id": 11
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 1,
+      "candySoldAmount": 1,
+      "id": 12
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 1,
+      "candySoldAmount": 1,
+      "id": 13
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 1,
+      "candySoldAmount": 1,
+      "id": 14
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 1,
+      "candySoldAmount": 1,
+      "id": 15
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 1,
+      "candySoldAmount": 1,
+      "id": 16
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 1,
+      "candySoldAmount": 1,
+      "id": 17
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 1,
+      "candySoldAmount": 1,
+      "id": 18
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 1,
+      "candySoldAmount": 1,
+      "id": 19
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 1,
+      "candySoldAmount": 1,
+      "id": 20
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 1,
+      "candySoldAmount": 1,
+      "id": 21
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 3,
+      "candySoldAmount": 1,
+      "id": 22
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 4,
+      "candySoldAmount": 1,
+      "id": 23
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 4,
+      "candySoldAmount": 1,
+      "id": 24
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 3,
+      "candySoldAmount": 1,
+      "id": 25
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 1,
+      "candySoldAmount": 1,
+      "id": 26
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 1,
+      "candySoldAmount": 1,
+      "id": 27
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 4,
+      "candySoldAmount": 1,
+      "id": 28
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 4,
+      "candySoldAmount": 1,
+      "id": 29
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 4,
+      "candySoldAmount": 1,
+      "id": 30
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 4,
+      "candySoldAmount": 1,
+      "id": 31
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 4,
+      "candySoldAmount": 1,
+      "id": 32
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 4,
+      "candySoldAmount": 1,
+      "id": 33
+    },
+    {
+      "customerId": 4,
+      "productLocationId": 4,
+      "candySoldAmount": 1,
+      "id": 34
+    },
+    {
+      "customerId": 5,
+      "productLocationId": 1,
+      "candySoldAmount": 1,
+      "id": 35
+    },
+    {
+      "customerId": 5,
+      "productLocationId": 3,
+      "candySoldAmount": 1,
+      "id": 36
+    },
+    {
+      "customerId": 5,
+      "productLocationId": 4,
+      "candySoldAmount": 1,
+      "id": 37
+    },
+    {
+      "customerId": 5,
+      "productLocationId": 8,
+      "candySoldAmount": 1,
+      "id": 38
+    },
+    {
+      "customerId": 5,
+      "productLocationId": 3,
+      "candySoldAmount": 1,
+      "id": 39
+    },
+    {
+      "customerId": 12,
+      "productLocationId": 3,
+      "candySoldAmount": 1,
+      "id": 40
+    }
+  ],
+  "employees": []
 }
